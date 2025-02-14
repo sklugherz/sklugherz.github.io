@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.yellow {
+    color: yellow;
+}
+
 body {
     background-color: #151515;
     color: white;
@@ -126,7 +130,7 @@ h3 {
     text-decoration: none;
 }
 
-.sccp {
+.sscp {
     color: #f67634;
 }
 
