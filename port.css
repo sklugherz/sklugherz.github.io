@@ -54,7 +54,7 @@ h3 {
 .cred {
     background-color: #424242;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
     display: flex;
     width: 300px;
 }
@@ -85,6 +85,7 @@ h3 {
 
 .gh-button {
     padding: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
     color: #151515;
     font-size: 1.25em;
