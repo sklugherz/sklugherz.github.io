@@ -157,7 +157,20 @@ td {
     padding: 5px;
 }
 
-li {
-    list-style: none;
+.socials {
+    display: flex;
 }
 
+.soc {
+    background-color: #424242;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+iframe {
+    margin-top: 5px;
+    width: 330px;
+    height: 88px;
+    border: none;
+}
