@@ -70,7 +70,7 @@ h3 {
     margin-bottom: auto;
 }
 
-a p {
+.gh-button p {
     padding-left: 5px;
     display: block;
     margin-top: auto;
@@ -99,14 +99,14 @@ a p {
     justify-content: center;
 }
 
-.box a:hover {
+.gh-button:hover {
     text-decoration: none;
     background-color: rgb(173, 205, 230);
     transition: all 0.3s;
     transform: scale(1.1);
 }
 
-.box a:visited {
+.gh-button:visited {
     text-decoration: none;
 }
 
