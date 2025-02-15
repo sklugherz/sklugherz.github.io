@@ -58,7 +58,7 @@ h3 {
 .cred {
     background-color: #424242;
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
     display: flex;
     width: 330px;
     height: 100px;
@@ -72,17 +72,22 @@ iframe {
     padding-left: 2px;
 }
 
+iframe:hover {
+    transform: scale(1.02);
+    transition: all 0.3s;
+}
+
 .thm {
     background-color: #424242;
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
     height: 100px;
 }
 
 .ld {
     background-color: #424242;
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
     width: 330px;
     height: 100px;
     display: flex;
@@ -91,6 +96,11 @@ iframe {
 
 .ld a{
     padding-top: 3.25px;
+}
+
+.ld img:hover {
+    transform: scale(1.03);
+    transition: all 0.3s;
 }
 
 .text p {
@@ -199,6 +209,15 @@ td {
     padding: 5px;
     border-radius: 5px;
     margin: 10px;
+}
+
+.soc a {
+    padding: 5px;
+}
+
+.soc img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
 }
 
 .soc img {
