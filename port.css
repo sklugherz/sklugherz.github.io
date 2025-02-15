@@ -21,7 +21,23 @@ body {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 75%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.hero h1 {
+    margin: 10px;
+    font-size: 2.5em;
+    white-space: nowrap;
+    width: 350px;
+    color: #fb5c5c
+}
+
+.hero p {
+    width: 60%;
+    color: #8ec3c5
 }
 
 .box {
@@ -46,10 +62,7 @@ h3 {
 
 .bio {
     width: 50%;
-}
-
-.left-bio {
-    margin-right: 5px;
+    margin: 5px;
 }
 
 .credentials {
