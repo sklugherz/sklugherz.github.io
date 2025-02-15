@@ -12,3 +12,5 @@ My portfolio website made from scratch with HTML, CSS and Javascript.
  - add nav bar
 
  - make responsive with different width css selector rules cutoff points ~1300px width
+
+ - add pico ctf account to either creds or socials
