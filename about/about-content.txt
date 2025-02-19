@@ -1,0 +1,38 @@
+ <div class="bio">
+                    <h3>Cybersecurity Professional</h3>
+                    <p class="left-bio">
+                        I hold two (ISC)² certifications - SSCP and CC - reflecting expertise in cybersecurity fundamentals. 
+                        I have developed practical experience with SIEM tools, network security, and security protocols through independent study and hands-on lab work.
+                    </p>
+                </div>
+                <div class="bio">
+                    <h3>Software Engineer</h3>
+                    <p>
+                        I am proficient in multiple programming languages and development tools. 
+                        Actively building skills through coding challenges, personal projects, and staying current with modern development practices.
+                    </p>
+                </div>
+                <div class="credentials"> 
+                <div class="cred">
+                    <img src="assets/sscp.png">
+                    <div class="text">
+                        <p>System Security Certified Practicioner</p>
+                        <p>Sponsor: (ISC)^2</p>
+                    </div>
+                </div>
+                <div class="cred">
+                    <img src="assets/cc.png">
+                    <div class="text">
+                        <p>Certified in Cybersecurity</p>
+                        <p>Sponsor: (ISC)^2</p>
+                    </div>
+                </div>
+                <div class="cred">
+                    <img src="assets/csu.png">
+                    <div class="text">
+                        <p>Bachelors of Science, Computer Science</p>
+                        <p>Colorado State Univeristy</p>
+                    </div>
+                    
+                </div>
+            </div>
