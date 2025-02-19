@@ -6,13 +6,20 @@
 body {
     background-color: #203447;
     color: white;
-    width: min(60%, 600px);
 }
 
 .content {
-    margin: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: min(60%, 600px);
 }
 
 .nav {
     display: flex;
+}
+
+canvas  {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
 }
