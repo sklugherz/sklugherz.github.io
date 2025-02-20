@@ -10,7 +10,10 @@
 body {
     /* background-color: #151515; */
     /* background-color: #eae1dc; */
-    background: linear-gradient(30deg, rgb(12, 12, 58), rgb(12, 12, 58) 40%, #151515 60%, #151515 100%);
+    /* background: linear-gradient(30deg, rgb(12, 12, 58), rgb(12, 12, 58) 40%, #151515 60%, #151515 100%); */
+    background-image: url(assets/Patterns303.webp);
+    background-repeat: repeat-y;
+    background-size: contain;
     color: white;
     min-width: 600px;
     width: 70%;
