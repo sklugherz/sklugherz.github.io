@@ -6,19 +6,19 @@
 body {
     background-color: #212737;
     color: white;
-    width: clamp(500px, 65%, 1300px);
+    width: clamp(500px, 60%, 1200px);
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.2em;
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 300;
+
 }
 
 nav {
     height: 80px;
     display: flex;
     justify-content: space-between;
-
     align-items: center;
-
     border-bottom: solid 1px #f67634;
 }
 
@@ -50,13 +50,16 @@ a:hover {
     transition: all 0.3s;
 }
 
-.content {
+.content{
     padding-top: 5%;
     padding-bottom: 5%;
+    min-height: calc(80vh - 61px);
 }
 
-.header {
-    display: flex;
+.skills ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 
@@ -132,13 +135,31 @@ iframe:hover {
     color: #f67634;
 }
 
-.soc img:hover {
-    transform: scale(1.1);
-    transition: all 0.3s;
-}
-
 .footer {
     border-top: solid 1px #f67634;
-    height: 80px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: .9em;
+    padding-top: 10px;
+    
+
+    /* use the calc() function to set the height of 
+    your wrapper equal to the height of the viewport 
+    (display), minus the height of the footer */
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer li {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.footer img:hover {
+    transition: all .03s;
+    transform: scale(1.2);
 }
 
