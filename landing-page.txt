@@ -1,20 +1,37 @@
- <div class="bio">
-                    <h3>Cybersecurity Professional</h3>
-                    <p class="left-bio">
-                        I hold two (ISC)² certifications - SSCP and CC - reflecting expertise in cybersecurity fundamentals. 
-                        I have developed practical experience with SIEM tools, network security, and security protocols through independent study and hands-on lab work.
-                    </p>
-                </div>
-                <div class="bio">
-                    <h3>Software Engineer</h3>
-                    <p>
-                        I am proficient in multiple programming languages and development tools. 
-                        Actively building skills through coding challenges, personal projects, and staying current with modern development practices.
-                    </p>
-                </div>
-                <div class="credentials"> 
-                <div class="cred">
-                    <img src="assets/sscp.png">
+
+
+                        <p>System Security Certified Practicioner</p>
+                        <p>Sponsor: (ISC)^2</p>
+
+
+                        <p>Certified in Cybersecurity</p>
+                        <p>Sponsor: (ISC)^2</p>
+ 
+                    <div class="text">
+                        <p>Bachelors of Science, Computer Science</p>
+                        <p>Colorado State Univeristy</p>
+
+### LAYOUT
+
+
+ABOUT modern
+
+layered title cards with next on peeking below
+when hovering they all come out in a list of buttons'
+whehn selected the bio description challenge
+
+each one has a different layout
+csp has credentials
+indie has
+
+all of them have
+
+socials and education below
+
+<div class="credentials">
+				<h1>Credentials</h1>
+				<div class="cred">
+					<img src="assets/sscp.png">
                     <div class="text">
                         <p>System Security Certified Practicioner</p>
                         <p>Sponsor: (ISC)^2</p>
@@ -33,6 +50,26 @@
                         <p>Bachelors of Science, Computer Science</p>
                         <p>Colorado State Univeristy</p>
                     </div>
-                    
-                </div>
-            </div>
+					<div class="thm">
+						<iframe scrolling="no" src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3920906"></iframe>
+					</div>
+					<div class="ld">
+						<a href="https://app.letsdefend.io/user/mrpinkhats" target="_blank"><img alt ="LetsDefend CS Transcript" src="assets/letsdefend.png"></a>
+					</div>
+			</div>
+			<!-- https://play.picoctf.org/users/efilofi -->
+			<div class="socials">
+				<h1>Socials</h1>
+					<div class="soc">
+						<p>Itch.io</p>
+						<a href="https://mrpinkhats.itch.io" target="_blank"><img alt="itch.io" src="assets/itchio.png"></a>
+					</div>
+					<div class="soc">
+						<p>LinkedIn</p>
+						<a href="https://www.linkedin.com/in/stephen-klugherz-778101233" target="_blank"><img alt="LinkIn" src="assets/lilogo.png"></a>
+					</div>
+					<div class="soc">
+						<p>Github</p>
+						<a href="https://github.com/sklugherz" target="_blank"><img alt="Github" src="assets/social-gh-logo.png"></a>
+					</div>
+			</div>
