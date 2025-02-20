@@ -11,7 +11,7 @@ body {
     background-color: #151515;
     color: white;
     min-width: 600px;
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -220,14 +220,17 @@ td {
 }
 
 .soc {
-    background-color: #424242;
     padding: 5px;
     border-radius: 5px;
-    margin: 10px;
+    
 }
 
 .soc a {
     padding: 5px;
+}
+
+.soc p {
+    text-align: center;
 }
 
 .soc img:hover {
@@ -237,5 +240,9 @@ td {
 
 .soc img {
     margin-top: 5px;
+}
+
+.footer {
+    height: 50px;
 }
 
