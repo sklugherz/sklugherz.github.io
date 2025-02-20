@@ -39,10 +39,21 @@ nav img {
     height: 20px;
 }
 
-nav a {
+a {
     text-decoration: none;
     color: white;
-    
+}
+
+.about a {
+    letter-spacing: 2px;
+}
+
+.content a {
+    border-bottom: dashed 1px white;
+}
+
+.content a:hover {
+    border-bottom: dashed 1px #f67634;
 }
 
 a:hover {
@@ -54,17 +65,22 @@ a:hover {
     padding-top: 5%;
     padding-bottom: 5%;
     min-height: calc(80vh - 61px);
+    line-height: 1.5;
 }
 
-.skills ul {
+h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content ul {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
 }
 
-
-
 iframe {
+    padding-top: 5px;
     height: 100px;
     width: 330px;
     border: hidden;
@@ -75,66 +91,6 @@ iframe:hover {
     transition: all 0.3s;
 }
 
-.gh-button p {
-    padding-left: 5px;
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.ghi {
-    padding: 2px;
-    background-color: #151515;
-    border-radius: 25%;
-}
-
-.gh-button {
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #151515;
-    font-size: 1.25em;
-    font-weight: bold;
-    background-color: lightblue;
-    border-radius: 5px;
-    text-decoration: none;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.gh-button:hover {
-    text-decoration: none;
-    background-color: rgb(173, 205, 230);
-    transition: all 0.3s;
-    transform: scale(1.1);
-}
-
-.gh-button:visited {
-    text-decoration: none;
-}
-
-.badge {
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.badge p:hover {
-    text-decoration: none;
-    transition: all 0.3s;
-    transform: scale(1.1);
-}
-
-.badge:visited {
-    text-decoration: none;
-}
-
-.sscp {
-    color: #f67634;
-}
-
 .footer {
     border-top: solid 1px #f67634;
     height: 60px;
@@ -142,11 +98,6 @@ iframe:hover {
     justify-content: space-between;
     font-size: .9em;
     padding-top: 10px;
-    
-
-    /* use the calc() function to set the height of 
-    your wrapper equal to the height of the viewport 
-    (display), minus the height of the footer */
 }
 
 .footer ul {
