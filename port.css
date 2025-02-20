@@ -95,13 +95,11 @@ iframe:hover {
 }
 
 .thm {
-    background-color: #424242;
-    border-radius: 5px;
-    margin: 5px;
+    padding-top: 7px;
     height: 100px;
 }
 
-.ld {
+/* .ld {
     background-color: #424242;
     border-radius: 5px;
     margin: 5px;
@@ -109,7 +107,7 @@ iframe:hover {
     height: 100px;
     display: flex;
     justify-content: center;
-}
+} */
 
 .ld a{
     padding-top: 3.25px;
