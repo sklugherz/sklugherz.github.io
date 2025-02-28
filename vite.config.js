@@ -11,7 +11,7 @@ export default defineConfig({
     vueDevTools(),
   ],
   base: process.env.NODE_ENV === 'production'
-    ? '/dist/'
+    ? '/gh-pages/'
     : '/',
   resolve: {
     alias: {
