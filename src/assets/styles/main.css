@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212737;
+    color: white;
+    width: clamp(500px, 60%, 1200px);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #f67634;
+    transition: all 0.3s;
+}
+
+h3, h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
