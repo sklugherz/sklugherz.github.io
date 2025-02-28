@@ -27,3 +27,8 @@ npm run dev
 ```sh
 npm run build
 ```
+
+#### Deploy to github.sklugherz.io/gh-pages/
+```sh
+npm run deploy
+```

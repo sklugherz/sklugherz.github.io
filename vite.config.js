@@ -10,6 +10,9 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  base: process.env.NODE_ENV === 'production'
+    ? '/gh-pages/'
+    : '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
