@@ -5,7 +5,7 @@ Made with HTML, CSS, JS, and Vue.js.
 
 ## Plans
 
-overall design & create a more reactive layout using JS
+overall design & create a more reactive and interactive layout using JS
 
 create a projects page using vue template
     overall layout filled in with each page details similar to generate
