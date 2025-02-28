@@ -12,18 +12,18 @@ create a projects page using vue template
     vue create hello world file
 
 
-### Project Setup
+## Project Setup
 ```sh
 npm install
 ```
 
-#### Compile and Hot-Reload for Development
+### Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
 ```
 
-#### Compile and Minify for Production
+### Compile and Minify for Production
 ```sh
 npm run build
 ```
