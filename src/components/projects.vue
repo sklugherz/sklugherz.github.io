@@ -2,14 +2,14 @@
 
 import {ref} from 'vue';
 
-const projects = ref([{title: 'project 1', 
-                    desc: 'hello world',}, {title: 'project 2', 
-                    desc: 'hello world',}]);
+import projects from '../assets/data/projects.js'
 
-const isSelected = ref(false);
 
-function toggleSelected() {
-    isSelected.value = !isSelected.value;
+
+function toggleSelected(project) {
+    projects.value.forEach(p => p.selected = false);
+
+    project.selected = true;
 }
 
 </script>
@@ -18,8 +18,12 @@ function toggleSelected() {
     <div class="main">
         <div class="aside">
             <ul>
-                <li v-for="project in projects" @click="toggleSelected()" :class="{ selected: isSelected }">
-                    <p>{{ project.title }}</p><span>&nbsp;>></span>
+                <li v-for="project in projects" :key="project.title">
+                    <p 
+                    @click="toggleSelected(project)" :class="{ selected: project.selected }"
+                    >
+                    {{ project.title }}<span>&nbsp;>></span>
+                    </p>
                 </li>
             </ul>
         </div>
@@ -40,7 +44,6 @@ function toggleSelected() {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: aqua;
 }
 
 li {
@@ -52,8 +55,18 @@ li {
     border: 1px solid white;
     border-top: hidden;
     display: flex;
-    justify-content: center;
     align-items: center;
+    transition: all .3s;
+}
+
+li:hover {
+    cursor:pointer;
+}
+
+p {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 li:first-child {
@@ -64,16 +77,19 @@ span {
     display: none;
 }
 
+.selected {
+    padding-left: 30px;
+    font-size: 1.2em;
+    transition: all .3s;
+}
+
 .selected span {
     display: block;
+    padding-left: auto;
 }
 
-.selected {
-    border-right: hidden;
-}
-
-.selected li {
-    padding-left: 5px;
+li:has(.selected) {
+    border-right: transparent;
 }
 
 .aside {
