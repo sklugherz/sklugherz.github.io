@@ -1,7 +1,5 @@
 <script setup>
 
-import {ref} from 'vue';
-
 import projects from '../assets/data/projects.js'
 
 
@@ -28,7 +26,10 @@ function toggleSelected(project) {
             </ul>
         </div>
         <div class="project">
-            <p>project <img></p>
+            <div class="lighter">
+                <p>project</p>
+                <img />
+            </div>
         </div>
     </div>
 </template>
@@ -41,9 +42,22 @@ function toggleSelected(project) {
 
 .project {
     width: 70%;
+}
+
+.lighter {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    padding-top: 0;
+
+}
+
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 300px;
+    height: 200px;
 }
 
 li {
@@ -96,9 +110,5 @@ li:has(.selected) {
     width: 30%; 
 }
 
-img {
-    width: 300px;
-    height: 200px;
-}
 
 </style>
