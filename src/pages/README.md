@@ -1,2 +1,0 @@
-These are different from components in that they usually hold not content and just utilize repeating architecture to limit code smells in code duplication in style and function.
-Also allows me to begin utilizing inheritance and slot functionality from vue. 

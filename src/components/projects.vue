@@ -1,10 +1,11 @@
 <script setup>
 
+
 </script>
 
 <template>
     <div class="main">
-        <aside>
+        <div class="aside">
             <ul>
                 <li>
                     <p>Project 1</p>
@@ -22,11 +23,10 @@
                     <p>Project 5</p>
                 </li>
             </ul>
-        </aside>
+        </div>
         <div class="project">
             <p>project <img></p>
         </div>
-
     </div>
 </template>
 
@@ -34,6 +34,14 @@
 
 .main {
     display: flex;
+}
+
+.project {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
 }
 
 li {
@@ -53,21 +61,11 @@ li:first-child {
     border-top: 1px solid white;
 }
 
-aside {
+.aside {
     width: 30%; 
 }
 
-.project {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: aqua;
-}
-
-
 img {
-    
     width: 300px;
     height: 200px;
 }
