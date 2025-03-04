@@ -1,26 +1,19 @@
 <script setup>
 
+const projects = ref({id:'1',
+                    title: 'P1', 
+                    desc: 'p1 is awesome', 
+                    img: '../assets/imgs/picoctf.png'})
+
 
 </script>
 
 <template>
     <div class="main">
         <div class="aside">
-            <ul>
-                <li>
-                    <p>Project 1</p>
-                </li>
-                <li>
-                    <p>Project 2</p>
-                </li>
-                <li>
-                    <p>Project 3</p>
-                </li>
-                <li>
-                    <p>Project 4</p>
-                </li>
-                <li>
-                    <p>Project 5</p>
+            <ul>>
+                <li v-for="project in projects" :key="project.id">
+                    {{ project.title }}
                 </li>
             </ul>
         </div>
