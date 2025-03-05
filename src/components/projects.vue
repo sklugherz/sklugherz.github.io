@@ -30,9 +30,10 @@ function toggleSelected(project) {
         <div class="project">
             <div class="lighter">
                 <h3>{{ currProject.title }}</h3>
-                <img :src=currProject.img alt="In Development; Image coming soon."/>
+                <img class="hero" :src=currProject.img alt="In Development; Image coming soon."/>
                 <h5>Keywords: {{ currProject.keywords }}</h5>
                 <p>{{ currProject.desc }}</p>
+                <a class="gh-button" href="https://github.com/sklugherz" target="_blank"><img class="ghi" src="../assets/imgs/socials/social-gh-logo.png"><p>Github</p></a>
             </div>
         </div>
     </div>
@@ -76,7 +77,7 @@ h5 {
     box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-img {
+.hero {
     display: block;
     margin-left: auto;
     margin-right: auto;
