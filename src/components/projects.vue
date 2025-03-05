@@ -33,7 +33,6 @@ function toggleSelected(project) {
                 <img :src=currProject.img alt="In Development; Image coming soon."/>
                 <h5>Keywords: {{ currProject.keywords }}</h5>
                 <p>{{ currProject.desc }}</p>
-                
             </div>
         </div>
     </div>
@@ -125,7 +124,6 @@ span {
 
 .selected span {
     display: block;
-    padding-left: auto;
 }
 
 li:has(.selected) {
