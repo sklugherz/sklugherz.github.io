@@ -1,11 +1,9 @@
+import itchlogo from '../imgs/itchlogo.png'
 
-import { ref } from 'vue';
-
-
-const projects = ref([
-    {title: 'project 1', desc: 'hello world', img:'', selected: true}, 
-    {title: 'project 2', desc: 'hello world', img:'', selected: false}
-    ]);
-    //{title: '', desc: '', img:'', selected: false}
+const projects = [
+    {title: 'project 1', desc: 'hello world', img: itchlogo}, 
+    {title: 'project 2', desc: 'hello world 2', img:''}
+    ];
+    //{title: '', desc: '', img:''}
 
 export default projects;

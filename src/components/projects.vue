@@ -1,13 +1,15 @@
 <script setup>
+import { ref } from 'vue';
+import projects from '../assets/data/projects.js';
 
-import projects from '../assets/data/projects.js'
+const currProject = ref(projects[0]);
 
-
+const projectList = ref(projects.map(p => ({...p, selected: p === projects[0]})));
 
 function toggleSelected(project) {
-    projects.value.forEach(p => p.selected = false);
-
+    projectList.value.forEach(p => p.selected = false);
     project.selected = true;
+    currProject.value = project;
 }
 
 </script>
@@ -16,7 +18,7 @@ function toggleSelected(project) {
     <div class="main">
         <div class="aside">
             <ul>
-                <li v-for="project in projects" :key="project.title">
+                <li v-for="project in projectList" :key="project.title">
                     <p 
                     @click="toggleSelected(project)" :class="{ selected: project.selected }"
                     >
@@ -27,8 +29,8 @@ function toggleSelected(project) {
         </div>
         <div class="project">
             <div class="lighter">
-                <p>project</p>
-                <img />
+                <p>{{ currProject.desc }}</p>
+                <img :src=currProject.img />
             </div>
         </div>
     </div>
