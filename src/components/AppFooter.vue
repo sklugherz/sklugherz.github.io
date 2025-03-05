@@ -8,16 +8,16 @@
     <p>© Stephen Klugherz</p>
         <ul>
             <li>
-                <a href="https://github.com/sklugherz" target="_blank"><img alt="Github Logo" src="../assets/imgs/social-gh-logo.png"></a>
+                <a href="https://github.com/sklugherz" target="_blank"><img alt="Github Logo" src="../assets/imgs/socials/social-gh-logo.png"></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/stephen-klugherz-778101233" target="_blank"><img alt="LinkedIn Logo" src="../assets/imgs/lilogo.png"></a>
+                <a href="https://www.linkedin.com/in/stephen-klugherz-778101233" target="_blank"><img alt="LinkedIn Logo" src="../assets/imgs/socials/lilogo.png"></a>
             </li>
             <li>
-                <a href="https://mrpinkhats.itch.io" target="_blank"><img alt="itch.io PFP" src="../assets/imgs/itchlogo.png"></a>
+                <a href="https://mrpinkhats.itch.io" target="_blank"><img alt="itch.io PFP" src="../assets/imgs/socials/itchlogo.png"></a>
             </li>
             <li>
-                <a href="https://play.picoctf.org/users/efilofi" target="_blank"><img alt="PicoCTF Logo" src="../assets/imgs/picoctf.png"></a>
+                <a href="https://play.picoctf.org/users/efilofi" target="_blank"><img alt="PicoCTF Logo" src="../assets/imgs/socials/picoctf.png"></a>
             </li>
         </ul>
     </footer>

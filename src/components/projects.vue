@@ -29,8 +29,11 @@ function toggleSelected(project) {
         </div>
         <div class="project">
             <div class="lighter">
+                <h3>{{ currProject.title }}</h3>
+                <img :src=currProject.img alt="In Development; Image coming soon."/>
+                <h5>Keywords: {{ currProject.keywords }}</h5>
                 <p>{{ currProject.desc }}</p>
-                <img :src=currProject.img />
+                
             </div>
         </div>
     </div>
@@ -46,12 +49,32 @@ function toggleSelected(project) {
     width: 70%;
 }
 
-.lighter {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 5%;
-    padding-top: 0;
+h3 {
+    text-align: center;
+}
 
+h5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 3%;
+}
+
+.lighter p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 3%;
+}
+
+.lighter {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 5%;
+    border-radius: 25px;
+    box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 img {
@@ -60,6 +83,7 @@ img {
     margin-right: auto;
     width: 300px;
     height: 200px;
+    border: 1px solid white;
 }
 
 li {
