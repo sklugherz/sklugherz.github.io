@@ -66,7 +66,9 @@ function toggleSelected(project) {
     justify-content: center;
 }
 
-/* Inspired by TreepDeep From Uiverse.io */ 
+/* Inspired by TreepDeep From Uiverse.io 
+    is modified
+*/ 
 .button.x {
   max-width: 320px;
   display: flex;
