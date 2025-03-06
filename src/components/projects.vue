@@ -66,7 +66,7 @@ function toggleSelected(project) {
     justify-content: center;
 }
 
-/* From Uiverse.io by TreepDeep */ 
+/* Inspired by TreepDeep From Uiverse.io */ 
 .button.x {
   max-width: 320px;
   display: flex;
@@ -78,10 +78,10 @@ function toggleSelected(project) {
   text-transform: uppercase;
   align-items: center;
   border-radius: 0.5rem;
-  border: 1px solid rgba(24, 23, 23, 0.25);
+  border: 3px solid rgba(24, 23, 23, 0.25);
   gap: 0.75rem;
   color: #ffffff;
-  background-color: rgb(24, 23, 23);
+  background-color: #212737;
   cursor: pointer;
   transition: all 0.6s ease;
   text-decoration: none;
@@ -92,14 +92,17 @@ function toggleSelected(project) {
   width: 24px;
   fill: #fff;
   margin-right: 0.5rem;
+  transition: all 0.6s ease;
 }
 
 .button.x:hover {
   transform: scale(1.02);
-  background-color: #333;
+  background-color: #f67634;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
 }
 
+/* end */
 
 .main {
     display: flex;
