@@ -99,7 +99,6 @@ function toggleSelected(project) {
   transform: scale(1.02);
   background-color: #f67634;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: #fff;
 }
 
 /* end */
