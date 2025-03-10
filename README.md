@@ -2,10 +2,11 @@
 
 Made with HTML, CSS, JS, and Vue.js.
 
-## Plans
 
-overall design & create a more reactive and interactive layout using JS
+### backlog
 
-create a projects page using vue and js
-    overall layerd template layout filled in with each page details similar to generated vue create hello world file
-
+ - add filter for project based on keywords: Games, CyberSec, Langauge specific, etc
+    - to be add on extended project list
+ - update projects list layout for to utilize whitespace better
+ - fix the hitbox for projects list
+    - currently encompeses text item instead of list item

@@ -7,7 +7,7 @@
 
     <p>Inspired by: <a href="https://uses.tech">Uses/</a></p>
     <h3>Hardware</h3>
-    <h4>Lenovo Ideapad Laptop</h4>
+    <h4>Modified Lenovo Ideapad Laptop</h4>
     <ul>
         <li>
             <p>OS: Kali Linux</p>
