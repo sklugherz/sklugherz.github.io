@@ -2,11 +2,6 @@
 
 Made with HTML, CSS, JS, and Vue.js.
 
-## Plans
-
-1. add image assets for idividual projects
-
-
 
 ### backlog
 
