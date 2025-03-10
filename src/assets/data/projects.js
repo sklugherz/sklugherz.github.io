@@ -2,8 +2,6 @@ import KR from '../imgs/projects/KingsRoad.png'
 import GA from '../imgs/projects/GA.png'
 import PS from '../imgs/projects/ps.png'
 
-
-
 // import x from '../imgs/projects/'
 
 const projects = [
