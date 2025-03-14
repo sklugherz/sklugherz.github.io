@@ -1,5 +1,5 @@
 # My Portfolio Website
-![Porfolio Link](https://sklugherz.github.io)
+[Porfolio Link](https://sklugherz.github.io)
 
 
 Made with HTML, CSS, JS, and Vue.js.
