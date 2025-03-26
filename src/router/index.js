@@ -28,8 +28,19 @@ const router = createRouter({
       path: '/blogs',
       name: 'blogs',
       component: () => import('../pages/blogs.vue')
-    }
+    },
+    {
+      path: '/blogs/phantom-intruder',
+      name: 'phantom-intruder',
+      component: () => import('../pages/blogs/picoCTF/phantom-intuder.vue')
+    },
   ],
 })
+
+// {
+//   path: '',
+//   name: '',
+//   component: () => import('../pages/blogs/')
+// },
 
 export default router
