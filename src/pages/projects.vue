@@ -135,7 +135,7 @@ h5 {
 
 .lighter {
     margin-left: 3%;
-    margin-right: 3%;
+    
     padding: 5%;
     border-radius: 25px;
     box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -154,7 +154,7 @@ li {
     list-style: none;
     height: 50px;
     max-width: 200px;
-    margin-left: 5%;
+    
     margin-right: 5%;
     border: 1px solid white;
     border-top: hidden;

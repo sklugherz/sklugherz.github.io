@@ -19,8 +19,10 @@
 <style scoped>
 
 .content {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
   min-height: calc(80vh - 61px);
   line-height: 1.5;
 }

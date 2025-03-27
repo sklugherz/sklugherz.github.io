@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <h1>Ph4nt0m 1ntrud3r challenge from PicoCTF 2025</h1>
-    <p>Welcome to my walkthrough for PicoCTF's Ph4nt0m 1ntrud3r challenge.</p>
+    <h3>Ph4nt0m 1ntrud3r challenge from PicoCTF 2025</h3>
+    <p>Welcome to my walkthrough & writup for PicoCTF's Ph4nt0m 1ntrud3r challenge.</p>
     <p>
         Lets take a look at the instructions. They require us to download a pcap file and asks us to analyze the 
         traffic and apply the right filters to uncover the threat actors malicious activity.
@@ -55,5 +55,15 @@ Decoding the rest of the packets with CyberChef gives us the flag and completes 
 </template>
 
 <style scoped>
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 200px;
+    width: clamp(300px, 90%, 900px);
+    border: 1px solid white;
+}
+
 
 </style>

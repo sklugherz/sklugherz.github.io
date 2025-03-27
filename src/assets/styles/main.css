@@ -6,7 +6,7 @@
 body {
     background-color: #212737;
     color: white;
-    width: clamp(601px, 70%, 1000px);
+    width: clamp(601px, 76%, 1000px);
     margin-left: auto;
     margin-right: auto;
     font-family: "IBM Plex Mono", monospace;
@@ -15,7 +15,7 @@ body {
 
 @media (max-width: 600px) {
     body {
-        width: 80%;
+        width: 90%;
     }
 }
 
