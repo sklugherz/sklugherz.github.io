@@ -61,7 +61,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     min-height: 200px;
-    width: clamp(300px, 90%, 900px);
+    width: clamp(580px, 90%, 900px);
     border: 1px solid white;
 }
 

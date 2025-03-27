@@ -23,10 +23,12 @@ ul {
 h3 {
     border-bottom: 1px dashed white;
     width: fit-content;
-    padding-bottom: 0;
+    padding: 0;
+    margin: 0;
 }
 
 h3:hover {
+    
     border-bottom: 1px dashed #f67634;
 }
 
