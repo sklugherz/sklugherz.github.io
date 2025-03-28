@@ -102,8 +102,8 @@ img {
     margin-right: auto;
     min-height: 200px;
     width: clamp(580px, 90%, 900px);
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h5 {
@@ -115,12 +115,12 @@ h5 {
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 p {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .short {
