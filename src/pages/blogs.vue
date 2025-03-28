@@ -5,7 +5,11 @@
 <template>
     <ul>
         <li>
-            <RouterLink to="/blogs/phantom-intruder"><h3>Ph4nt0m 1ntrud3r challenge from PicoCTF 2025</h3></RouterLink>
+            <div class="link">
+                <RouterLink to="/blogs/phantom-intruder">
+                    <h3>Ph4nt0m 1ntrud3r challenge walkthrough from PicoCTF 2025</h3>
+                </RouterLink>
+            </div>
             <div class="desc">
 
             </div>
@@ -20,16 +24,14 @@ ul {
     list-style: none;
 }
 
-h3 {
-    border-bottom: 1px dashed white;
-    width: fit-content;
-    padding: 0;
-    margin: 0;
+.link {
+    text-underline-offset: 2px;
+    text-decoration: underline white dashed;
 }
 
-h3:hover {
-    
-    border-bottom: 1px dashed #f67634;
+.link:hover {
+    text-decoration: underline #f67634 dashed;
+    transition: all 0.3s;
 }
 
 </style>
