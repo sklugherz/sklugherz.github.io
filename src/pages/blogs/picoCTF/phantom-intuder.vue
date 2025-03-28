@@ -104,7 +104,6 @@ img {
     width: clamp(580px, 90%, 900px);
     margin-top: 5px;
     margin-bottom: 5px;
-
 }
 
 h5 {
