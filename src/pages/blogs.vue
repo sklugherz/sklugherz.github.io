@@ -7,7 +7,7 @@
         <li>
             <div class="link">
                 <RouterLink to="/blogs/phantom-intruder">
-                    <h3>Ph4nt0m 1ntrud3r CTF Challenge Walkthrough</h3>
+                    <h3>Ph4nt0m 1ntrud3r CTF Walkthrough</h3>
                 </RouterLink>
             </div>
             <div class="desc">
