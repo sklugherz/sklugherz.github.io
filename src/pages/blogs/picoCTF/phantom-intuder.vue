@@ -18,7 +18,8 @@
     <img src="../../../assets/imgs/blogs/picoCTF/phantom_intruder/initial-open.png" 
         alt="Photo of the challenge instructions">
     <p>
-        Wireshark seems to have identified the majority of them as retransmissions.
+        Wireshark seems to have identified the majority of them as retransmissions, 
+        likely a form of packet flooding attempt.
     </p>
     <p>
         Taking a look at the information section we can see that the tcp connections are SYN 
