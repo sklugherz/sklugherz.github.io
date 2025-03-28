@@ -43,17 +43,18 @@
 <style scoped>
 
 ul {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 
 a {
-  border-bottom: dashed 1px white;
+	text-underline-offset: 2px;
+	text-decoration: underline white dashed;
 }
 
 a:hover {
-  border-bottom: dashed 1px #f67634;
+	text-decoration: underline #f67634 dashed;
 }
 
 .about a {
