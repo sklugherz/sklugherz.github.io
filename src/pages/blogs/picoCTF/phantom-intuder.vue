@@ -22,7 +22,7 @@
     </p>
     <p>
         Taking a look at the information section we can see that the tcp connections are SYN 
-        only instead of the usual SYN,ACK,SYN/ACK handshake of a normal TCP connection.
+        only instead of the usual SYN, ACK, SYN/ACK handshake of a normal TCP connection.
     </p>
     <p>
         This behavior is typical of a SYN Flood. Typically a SYN Flood is used in the 
@@ -47,7 +47,7 @@
         src="../../../assets/imgs/blogs/picoCTF/phantom_intruder/good-data.png"
      -->
     
-    <img 
+    <img class="placeholder"
         alt="Image of decoded Base64 data">
     <h5>
         Note: You may have to remove some of the packet 
@@ -66,7 +66,7 @@
         and its more rectangular
         src="../../../assets/imgs/blogs/picoCTF/phantom_intruder/bad-data.png"
      -->
-    <img  
+    <img  class="placeholder"
         alt="Image of non-Base64 decoded data">
     <p>
         We need to filter out the bad packets.
@@ -102,9 +102,9 @@ img {
     margin-right: auto;
     min-height: 200px;
     width: clamp(580px, 90%, 900px);
-    border: 1px solid white;
     margin-top: 5px;
     margin-bottom: 5px;
+
 }
 
 h5 {
@@ -128,7 +128,11 @@ p {
     text-align: center;
 }
 
-
+.placeholder {
+    border: 1px solid white;
+    min-height: 200px;
+    width: clamp(580px, 90%, 900px);
+}
 
 
 </style>
