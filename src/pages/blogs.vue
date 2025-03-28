@@ -13,8 +13,8 @@
             <div class="desc">
                 <p>
                     A walkthrough for a Capture the Flag challenge hosted on PicoCTF.
-                    This walkthrough covers packet analysis, packet filtering, and 
-                    data decoding to uncover the flag in a simulated SYN Flood attack.
+                    This walkthrough covers packet analysis and data decoding to 
+                    uncover the flag in a simulated SYN Flood attack.
                 </p>
             </div>
         </li>
