@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <h3>Ph4nt0m 1ntrud3r challenge from PicoCTF 2025</h3>
+    <h2>Ph4nt0m 1ntrud3r Challenge <br> PicoCTF 2025</h2>
     <p>Welcome to my walkthrough for PicoCTF's Ph4nt0m 1ntrud3r challenge.</p>
     <p>                               <!-- add "short of packet capture file"-->
         Lets take a look at the instructions. They require us to download a 
@@ -78,7 +78,7 @@
     </p>
     <img src="../../../assets/imgs/blogs/picoCTF/phantom_intruder/breakpoint.png" 
         alt="Image of breakpoint between difference packet information lengths">
-    <p>
+    <p class="short">
         Filtering out bad packets with the length of 8:
     </p>
     <img src="../../../assets/imgs/blogs/picoCTF/phantom_intruder/filtered-results.png" 
@@ -103,6 +103,8 @@ img {
     min-height: 200px;
     width: clamp(580px, 90%, 900px);
     border: 1px solid white;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 h5 {
@@ -111,6 +113,22 @@ h5 {
     margin-right: auto;
     text-align: justify;
 }
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.short {
+    text-align: center;
+}
+
+
 
 
 </style>
