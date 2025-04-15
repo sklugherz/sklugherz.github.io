@@ -30,11 +30,12 @@ ul {
 }
 
 a {
-  border-bottom: dashed 1px white;
+	text-underline-offset: 2px;
+	text-decoration: underline white dashed;
 }
 
 a:hover {
-  border-bottom: dashed 1px #f67634;
+	text-decoration: underline #f67634 dashed;
 }
 
 iframe {
