@@ -45,11 +45,12 @@
     <!-- 
         TODO: GET BETTER IMAGE OF GOOD-DATA, Make sure height is smaller 
         and its more rectangular
-        src="../../../assets/imgs/blogs/picoCTF/phantom_intruder/good-data.png"
+        
      -->
     
-    <img class="placeholder"
-        alt="Image of decoded Base64 data">
+    <img src="../../../assets/imgs/blogs/picoCTF/phantom_intruder/good-data.png"
+        alt="Image of decoded Base64 data"
+        class="placeholder">
     <h5>
         Note: You may have to remove some of the packet 
         headers after copying it into CyberChef.
@@ -65,10 +66,10 @@
     <!-- 
         TODO: GET BETTER IMAGE OF GOOD-DATA, Make sure height is smaller 
         and its more rectangular
-        src="../../../assets/imgs/blogs/picoCTF/phantom_intruder/bad-data.png"
      -->
-    <img  class="placeholder"
-        alt="Image of non-Base64 decoded data">
+    <img src="../../../assets/imgs/blogs/picoCTF/phantom_intruder/bad-data.png"
+        alt="Image of non-Base64 decoded data"
+        class="placeholder">
     <p>
         We need to filter out the bad packets.
     </p>
@@ -129,8 +130,8 @@ p {
 }
 
 .placeholder {
-    border: 1px solid white;
-    min-height: 200px;
+    /* border: 1px solid white; */
+    height: 700px;
     width: clamp(580px, 90%, 900px);
 }
 

@@ -24,7 +24,7 @@
 	<h3>Technologies I have experience with:</h3>
 	<ul>
 		<li>
-			<p>Python, HTML, CSS, Javascript</p>
+			<p>Python, C/C++, HTML, CSS, Java, Javascript</p>
 		</li>
 		<li>
 			<p>Unix, Git, Npm, Vue.js</p>
